@@ -2,7 +2,7 @@
 
 ## Highlights
 - Completed 24 paid bug bounties, including 9 through Immunefi and 16 through direct contact with projects.
-- submitted critical bugs in move language
+- Submitted critical bugs in move language
 - Reached in top #50 on Sherlock's leaderboard
 - Cantina Fellowship
 - Immunefi Top #30 during the June - July 2024
