@@ -18,7 +18,6 @@ For an audit, reach out via:
 |[Lyra Protocol V2](https://www.derive.xyz/)| Directly Reachout| Option AMM protcol |High | Griefing Attack due to Permit
 |[Panoptic Protocol](https://panoptic.xyz/)| Directly Reachout | Option Protocol on Uni v3| Critical | Internal accounting fee accumulation could create bad debt in the protocol.
 |[Alchemix](https://alchemix.fi/)| Immunefi | Self-Repaying Loans | High | A single token holder could reset the token price to 1:1.
-|[Alchemix](https://alchemix.fi/)| Immunefi | Self-Repaying Loans | Medium  | Implicit minimum Amount and funds lost due to rounding error
 |[Sonne Finance ](https://sonne.finance/)| Directly Reachout | Compound fork | Critical | Share inflation on empty vaults escalated to a Hundred Finance-type attack.  
 |[Sovryn Finance ](https://sovryn.com/)| Immunefi | Bitcoin trading and lending | Critical | Discovered that dust amounts could mutilate the share token price. 
 |[Gains Network  ](https://gains.trade/)| Immunefi |  trading platform on crypto, forex, and commodities| Critical |  Manipulation of mintToken Leading to First Deposit Loss
