@@ -52,8 +52,6 @@ For an audit, reach out via:
 ## Developer Profile 
 - Build a lending and borrowing platform that allows users to manage their loans based on their on-chain credit score.
 - Develop options and futures automated strategy vaults to generate fixed returns for users (e.g., basis trading vault, gamma vault, iron condor vault).
-- Create a protocol that enables users to open undercollateralized loans with up to 900% LTV to fund their options and futures hedge positions using leveraged spot, leveraged options, and leveraged perpetuals.
-
 
 
 
