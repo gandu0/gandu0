@@ -1,10 +1,11 @@
 # gandu's Portfolio
 
 ## Highlights
-- Completed 24 paid bug bounties, including 9 through Immunefi and 16 through direct contact with projects.
+- Associate All star at immuenfi.
+- Completed 26 paid bug bounties, including 9 through Immunefi and 16 through direct contact with projects.
 - Submitted critical bugs in move language
 - Reached in top #50 on Sherlock's leaderboard
-- Cantina Fellowship
+- Cantina Fellowship(March 2025 - June 2025)
 - Immunefi Top #30 during the June - July 2024
 
 For an audit, reach out via:
