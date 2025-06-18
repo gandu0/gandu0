@@ -42,6 +42,8 @@ For an audit, reach out via:
 ## Private Audits 
 | Project    |Feature| Finding 🔎|
 |------------|---------|------------------|
+|[Gains Network  ](https://gains.trade/) | trading platform on crypto, forex, and commodities| added soon
+|[EtherSpot](https://etherspot.io/) |  session key in Account abstraction | Added soon
 |[saffron](https://www.saffron.finance/) |  Zero-coupon swap | 1H, 1M, 4L
 |[ Maga Trump](http://magamemecoin.com/) | Tax token to tax free token swap | 1L
 
