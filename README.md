@@ -4,13 +4,13 @@
 
 | Protocol | Category | Findings | Details |
 |----------|----------|----------|----------|
-| [Lyra V1](https://www.derive.xyz/) | Options AMM Protocol | Identified a miscalculation in base and quote assets leading to a liquidity token rebase | [Writeup](https://gist.github.com/gandu0/2a55c9477b9df1e5f831867a26b26ab0), Payout: $10K |
-| [Sovryn Finance](https://sovryn.com/) | Bitcoin Trading & Lending | Discovered that dust amounts could manipulate the share token price | [Writeup](https://gist.github.com/gandu0/0fb6de1589847c36daa7bd5d45080027), Payout: $15K |
-| [2PI Network](https://2pi.network/) | Automated Vault Strategy | Every pool's first deposit could be stolen | Payout: $10K |
-| [KogeCoin](https://kogecoin.io/) | Farming Vaults | Inflation attack due to rounding error | Payout: $15K + $5K |
-| [Gains Network](https://gains.trade/) | Trading Platform | Manipulation of mintToken leading to first deposit loss | Payout: $10K |
-| [Alchemix](https://alchemix.fi/) | Self-Repaying Loans | A single token holder could reset the token price to 1:1 | [Writeup](https://gist.github.com/gandu0/ebf23f644aebb001f216f275b68c3b8d), Payout: $1.25K |
-| [Beanstalk](https://bean.money/) | Stablecoin Protocol | Permit-based griefing attack | [Writeup](https://gist.github.com/gandu0/ab7efd97b63251d08c8963ca16f75f63), Payout: $1K |
+| [Lyra V1](https://www.derive.xyz/) | Options AMM Protocol | Identified a miscalculation in base and quote assets leading to a liquidity token rebase | [Writeup](https://gist.github.com/gandu0/2a55c9477b9df1e5f831867a26b26ab0)|
+| [Sovryn Finance](https://sovryn.com/) | Bitcoin Trading & Lending | Discovered that dust amounts could manipulate the share token price | [Writeup](https://gist.github.com/gandu0/0fb6de1589847c36daa7bd5d45080027) |
+| [2PI Network](https://2pi.network/) | Automated Vault Strategy | Every pool's first deposit could be stolen | |
+| [KogeCoin](https://kogecoin.io/) | Farming Vaults | Inflation attack due to rounding error | |
+| [Gains Network](https://gains.trade/) | Trading Platform | Manipulation of mintToken leading to first deposit loss |  |
+| [Alchemix](https://alchemix.fi/) | Self-Repaying Loans | A single token holder could reset the token price to 1:1 | [Writeup](https://gist.github.com/gandu0/ebf23f644aebb001f216f275b68c3b8d) |
+| [Beanstalk](https://bean.money/) | Stablecoin Protocol | Permit-based griefing attack | [Writeup](https://gist.github.com/gandu0/ab7efd97b63251d08c8963ca16f75f63) |
 
 ## Direct Disclosures
 
