@@ -1,53 +1,45 @@
-# gandu's Portfolio
+# Portfolio
 
+## Immunefi
 
-For an audit, reach out via:
-- Twitter: https://x.com/gandu_whitehat
-- Telegram: https://t.me/gandu_whitehat
+| Protocol | Category | Findings | Details |
+|----------|----------|----------|----------|
+| [Lyra V1](https://www.derive.xyz/) | Options AMM Protocol | Identified a miscalculation in base and quote assets leading to a liquidity token rebase | [Writeup](https://gist.github.com/gandu0/2a55c9477b9df1e5f831867a26b26ab0), Payout: $10K |
+| [Sovryn Finance](https://sovryn.com/) | Bitcoin Trading & Lending | Discovered that dust amounts could manipulate the share token price | [Writeup](https://gist.github.com/gandu0/0fb6de1589847c36daa7bd5d45080027), Payout: $15K |
+| [2PI Network](https://2pi.network/) | Automated Vault Strategy | Every pool's first deposit could be stolen | Payout: $10K |
+| [KogeCoin](https://kogecoin.io/) | Farming Vaults | Inflation attack due to rounding error | Payout: $15K + $5K |
+| [Gains Network](https://gains.trade/) | Trading Platform | Manipulation of mintToken leading to first deposit loss | Payout: $10K |
+| [Alchemix](https://alchemix.fi/) | Self-Repaying Loans | A single token holder could reset the token price to 1:1 | [Writeup](https://gist.github.com/gandu0/ebf23f644aebb001f216f275b68c3b8d), Payout: $1.25K |
+| [Beanstalk](https://bean.money/) | Stablecoin Protocol | Permit-based griefing attack | [Writeup](https://gist.github.com/gandu0/ab7efd97b63251d08c8963ca16f75f63), Payout: $1K |
 
-## Bug Bounties
-| Protocol    |Platform| Category                  | Severity   | Findings 🔎|
-|------------|---------|------------------|-----------|----------|
-|[Lyra Protocol V1](https://www.derive.xyz/)| Immunefi| Option AMM protcol |Critical | Identified a miscalculation in base assets and quote assets, leading to a liquidity token rebase
-|[Lyra Protocol V2](https://www.derive.xyz/)| Directly Reachout| Option AMM protcol |High | Griefing Attack due to Permit
-|[Panoptic Protocol](https://panoptic.xyz/)| Directly Reachout | Option Protocol on Uni v3| Critical | Internal accounting fee accumulation could create bad debt in the protocol.
-|[Alchemix](https://alchemix.fi/)| Immunefi | Self-Repaying Loans | High | A single token holder could reset the token price to 1:1.
-|[Sonne Finance ](https://sonne.finance/)| Directly Reachout | Compound fork | Critical | Share inflation on empty vaults escalated to a Hundred Finance-type attack.  
-|[Sovryn Finance ](https://sovryn.com/)| Immunefi | Bitcoin trading and lending | Critical | Discovered that dust amounts could mutilate the share token price. 
-|[Gains Network  ](https://gains.trade/)| Immunefi |  trading platform on crypto, forex, and commodities| Critical |  Manipulation of mintToken Leading to First Deposit Loss
-|[BeanStalk ](https://bean.money/)| Immunefi |  stablecoin protocol| Medium | Attack due to permit 
-|[Onyx Protocol](https://onyx.org/)| Directly Reachout | financial grade applications Protocol| Critical | Share inflation on empty vaults escalated to a Hundred Finance-type attack. 
-|[AcrossProtocol](https://across.to/)| Directly Reachout | Cross chain Protocol| Critical | Deposits in the bridge contract are internally inflated, leading to the loss of user funds.
-|[KogeCoin](https://kogecoin.io/)| Immunefi |  Farming vaults  | Critical | Inflation Attack due to rounding Error
-|[2 PI network ](https://2pi.network/)| Directly Reachout |  automated vault strategy | Critical | Every Pools first deposit can be stolen
-|[Claystack ](https://claystack.com/)| Directly Reachout | LST protcol | Medium  | Timelock Centralisation Vulnerability
-|[ANTFARM ](https://antfarm.finance/)| Directly Reachout | Rebalancing protcol | Medium  | Past proposals become executable due to a lack of quorum in Governor
+## Direct Disclosures
 
+| Protocol | Category | Findings | Details |
+|----------|----------|----------|----------|
+| [Panoptic](https://panoptic.xyz/) | Options on Uniswap V3 | Internal fee accounting accumulation could create bad debt leading to user fund loss | [Writeup](https://gist.github.com/gandu0/59975ea2476d10387259a80cdfd298aa) |
+| Infrared | Berachain Staking | Staking token rewards could permanently lock user funds in wrapped vaults |  |
+| [Onyx Protocol](https://onyx.org/) | Lending Protocol | Share inflation on empty vaults leading to a Hundred Finance-style attack | [Writeup](https://x.com/gandu_whitehat/status/1811041165573038174) |
+| [Sonne Finance](https://sonne.finance/) | Compound Fork | Share inflation on empty vaults leading to a Hundred Finance-style attack | |
+| [Across Protocol](https://across.to/) | Cross-Chain Bridge | Internal bridge accounting inflation leading to user fund loss | [Writeup](https://x.com/gandu_whitehat/status/1811041165573038174) |
+| [Lyra V2](https://www.derive.xyz/) | Options AMM Protocol | Griefing attack through permitAndSubmitTransfer() message replay |  |
+| Ethos | Reputation Protocol | marketFunds incorrectly updated in buyVote() |  |
 
-## Aptos and Sui Move Bug 
-| Protocol |  Category                  | Severity   
-|------------|---------|------------------|
-|[Scallop](https://www.scallop.io/) |  Lending borrowing on sui | Critical
-|[Aries Market](https://ariesmarkets.xyz/) |Leverage Trading On Aptos| Critical
-|[Merkle Trade](https://merkle.trade/) |Perp On Aptos| Medium 
+## Group Audits
 
+| Protocol | Feature | Findings | Details |
+|----------|----------|----------|----------|
+| [Gains Network](https://gains.trade/) | Perpetual Trading | 1C, 4H, 6M, 12L | [Report](https://github.com/pashov/audits/blob/master/team/pdf/GainsNetwork-security-review_2025-05-26.pdf) |
+| [EtherSpot](https://etherspot.io/) | Session Keys in Account Abstraction | 8C, 4H, 2M, 9L |  |
+| Credifi | Lending with On-Chain Credit Scores | 1M, 4L, 4I | [Report](https://github.com/shieldify-security/audits-portfolio-md/blob/main/Credifi-Security-Review.md) |
+| Multipli | RAW with FlashRedeem | 1H, 3M, 1L | [Report](https://github.com/shieldify-security/audits-portfolio-md/blob/main/Multipli-Vault-Security-Review.md) |
 
-## Private Audits 
-| Project    |Feature| Finding 🔎|
-|------------|---------|------------------|
-|[Gains Network  ](https://gains.trade/) | trading platform on crypto, forex, and commodities| added soon
-|[EtherSpot](https://etherspot.io/) |  session key in Account abstraction | Added soon
-|[saffron](https://www.saffron.finance/) |  Zero-coupon swap | 1H, 1M, 4L
-|[ Maga Trump](http://magamemecoin.com/) | Tax token to tax free token swap | 1L
+## Private Audits
 
+| Protocol | Feature | Findings | Details |
+|----------|----------|----------|----------|
+| [Saffron Finance](https://www.saffron.finance/) | Zero-Coupon Swap | 1H, 1M, 4L | [Report](https://drive.google.com/file/d/1rwQI4ihkbSKDx_dGi6j_itn-QYnpWQxl/view?usp=sharing) |
+| [Maga Trump](http://magamemecoin.com/) | Tax Token to Tax-Free Token Migration | 1L | [Report](https://drive.google.com/file/d/1PTCyHqUYxI-S1f86L5ccZ98Dp-nS56KG/view?usp=sharing) |
 
-## Bug Content/ Twitter thread 
-- [How a careless approach of protocols leads to big $22M hacks](https://x.com/gandu_whitehat/status/1811041165573038174)
-- [Manipulation of share price due to miscalculation of the dust amount](https://x.com/gandu_whitehat/status/1803794103248806223)
-
-## Developer Profile 
-- Build a lending and borrowing platform that allows users to manage their loans based on their on-chain credit score.
-- Develop options and futures automated strategy vaults to generate fixed returns for users (e.g., basis trading vault, gamma vault, iron condor vault).
 
 
 
