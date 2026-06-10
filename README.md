@@ -1,5 +1,8 @@
 # Portfolio
-
+- offensive security researcher [halbornSecurity](https://www.halborn.com/)
+- Immunefi All Star : [Gandu](https://immunefi.com/allstars/)
+- External Auditor at [Pashov Audit Group](https://www.pashov.com/)
+- External Auditor at [shieldify] (https://www.shieldify.org/)
 ## Immunefi
 
 | Protocol | Category | Findings | Details |
